@@ -1,0 +1,10 @@
+.container{
+    background-color: yellow;
+    border-color: black;
+    border-style: dashed;
+    display: flex;
+    justify-content:space-around;
+}
+.sez1{
+    background-color: blue;
+}
