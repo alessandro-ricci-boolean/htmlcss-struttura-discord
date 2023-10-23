@@ -7,6 +7,16 @@
     border-color: black;
     border-style: dashed;
 }
+.sect-size{
+    height: 300px;
+    width: 50%;
+}
+.l-flex{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     background-color: yellow;
     display: flex;
@@ -14,26 +24,14 @@
 }
 .sez1{
     background-color: blue;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sez1 > div{
     background-color: pink;
-    height: 300px;
-    width: 50%;
 }
 .sez2{
     background-color: white;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sez2 > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .bg-pink{
@@ -59,50 +57,26 @@
 }
 .sez3{
     background-color: lightslategrey;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sez3 > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .sez4{
     background-color: white;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sez4 > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .sez5{
     background-color: lightslategrey;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sez5 > div{
     background-color: green;
-    height: 300px;
-    width: 50%;
 }
 footer{
     background-color: black;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 footer > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .buttons{
