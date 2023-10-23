@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+.dash{
+    border-color: black;
+    border-style: dashed;
+}
+.container{
+    background-color: yellow;
+    display: flex;
+    justify-content:space-around;
+}
+.sez1{
+    background-color: blue;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sez1 > div{
+    background-color: pink;
+    height: 300px;
+    width: 50%;
+}
+.sez2{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sez2 > div{
+    height: 300px;
+    width: 50%;
+    display: flex;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-turq{
+    background-color: turquoise;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.w-33{
+    width: 33%;
+}
+.w-67{
+    width: 67%;
+}
+.sez3{
+    background-color: lightslategrey;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sez3 > div{
+    height: 300px;
+    width: 50%;
+    display: flex;
+}
+.sez4{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sez4 > div{
+    height: 300px;
+    width: 50%;
+    display: flex;
+}
+.sez5{
+    background-color: lightslategrey;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sez5 > div{
+    background-color: green;
+    height: 300px;
+    width: 50%;
+}
+footer{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > div{
+    height: 300px;
+    width: 50%;
+    display: flex;
+}
+.buttons{
+   background-color: aqua; 
+}
