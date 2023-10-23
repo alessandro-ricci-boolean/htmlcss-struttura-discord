@@ -19,7 +19,6 @@
 }
 .container{
     background-color: yellow;
-    display: flex;
     justify-content:space-around;
 }
 .sect1{
@@ -30,9 +29,6 @@
 }
 .sect2{
     background-color: white;
-}
-.sect2 > div{
-    display: flex;
 }
 .bg-pink{
     background-color: pink;
@@ -58,14 +54,8 @@
 .sect3{
     background-color: lightslategrey;
 }
-.sect3 > div{
-    display: flex;
-}
 .sect4{
     background-color: white;
-}
-.sect4 > div{
-    display: flex;
 }
 .sect5{
     background-color: lightslategrey;
@@ -75,9 +65,6 @@
 }
 footer{
     background-color: black;
-}
-footer > div{
-    display: flex;
 }
 .buttons{
    background-color: aqua; 
