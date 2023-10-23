@@ -7,6 +7,10 @@
     border-color: black;
     border-style: dashed;
 }
+.size{
+    height: 300px;
+    width: 50%;
+}
 .container{
     background-color: yellow;
     display: flex;
@@ -21,8 +25,6 @@
 }
 .sez1 > div{
     background-color: pink;
-    height: 300px;
-    width: 50%;
 }
 .sez2{
     background-color: white;
@@ -32,8 +34,6 @@
     align-items: center;
 }
 .sez2 > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .bg-pink{
@@ -65,8 +65,6 @@
     align-items: center;
 }
 .sez3 > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .sez4{
@@ -77,8 +75,6 @@
     align-items: center;
 }
 .sez4 > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .sez5{
@@ -90,8 +86,6 @@
 }
 .sez5 > div{
     background-color: green;
-    height: 300px;
-    width: 50%;
 }
 footer{
     background-color: black;
@@ -101,8 +95,6 @@ footer{
     align-items: center;
 }
 footer > div{
-    height: 300px;
-    width: 50%;
     display: flex;
 }
 .buttons{
