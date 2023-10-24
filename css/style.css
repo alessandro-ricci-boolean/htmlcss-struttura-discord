@@ -24,10 +24,18 @@
     justify-content: center;
     align-items: center;
 }
-.container{
+.head-container{
+    background-color: azure;
+    display: flex;
+    justify-content:space-around;
+}
+.s-cont{
     background-color: yellow;
     display: flex;
     justify-content:space-around;
+}
+.logo{
+    padding: 10px;
 }
 .sect1{
     background-color: blue;
