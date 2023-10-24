@@ -24,24 +24,21 @@
     justify-content: center;
     align-items: center;
 }
+.header-padding{
+    padding: 10px;
+}
 .head-container{
     background-color: azure;
-    display: flex;
     justify-content:space-around;
+    padding: 15px;
 }
 .s-cont{
     background-color: yellow;
-    display: flex;
     justify-content:space-around;
-}
-.logo{
-    padding: 10px;
+    width: 50%;
 }
 .sect1{
     background-color: blue;
-}
-.sect1 > div{
-    background-color: pink;
 }
 .sect2{
     background-color: white;
@@ -85,6 +82,8 @@
 footer{
     background-color: darkslategrey;
 }
-.buttons{
+.bottom{
    background-color: aqua;
+   width: auto;
+   display: flex;
 }
