@@ -7,9 +7,16 @@
     border-color: black;
     border-style: dashed;
 }
+.white-dash{
+    border-color: white;
+    border-style: dashed;
+}
 .sect-size{
     height: 300px;
     width: 50%;
+}
+.s-flex{
+    display: flex;
 }
 .l-flex{
     height: 400px;
@@ -22,17 +29,14 @@
     display: flex;
     justify-content:space-around;
 }
-.sez1{
+.sect1{
     background-color: blue;
 }
-.sez1 > div{
+.sect1 > div{
     background-color: pink;
 }
-.sez2{
+.sect2{
     background-color: white;
-}
-.sez2 > div{
-    display: flex;
 }
 .bg-pink{
     background-color: pink;
@@ -55,30 +59,24 @@
 .w-67{
     width: 67%;
 }
-.sez3{
+.w-15{
+    width: 15%;
+}
+.sect3{
     background-color: lightslategrey;
 }
-.sez3 > div{
-    display: flex;
-}
-.sez4{
+.sect4{
     background-color: white;
 }
-.sez4 > div{
-    display: flex;
-}
-.sez5{
+.sect5{
     background-color: lightslategrey;
 }
-.sez5 > div{
+.sect5 > div{
     background-color: green;
 }
 footer{
-    background-color: black;
-}
-footer > div{
-    display: flex;
+    background-color: darkslategrey;
 }
 .buttons{
-   background-color: aqua; 
+   background-color: aqua;
 }
